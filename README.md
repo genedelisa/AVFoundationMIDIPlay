@@ -6,12 +6,12 @@
 [![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/AVFoundationMIDIPlay/)
 [![GitHub release](https://img.shields.io/github/release/genedelisa/tablebinding.svg)](https://github.com/genedelisa/AVFoundationMIDIPlay/)
 
-An example using
+A very simple example using `AVMIDIPlayer` to load a sound band and MIDI file and play it.
 
 
 ## Blog post for this example.
 
-[Blog post](http://www.rockhoppertech.com/blog/)
+[Blog post](http://www.rockhoppertech.com/blog/swift-2-avfounda…ay-audio-or-midi/)
 
 
 ## Bugs

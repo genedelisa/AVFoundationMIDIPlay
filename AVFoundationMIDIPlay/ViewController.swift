@@ -9,10 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    var sound:Sound!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        self.sound = Sound()
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,5 +24,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func playAction(sender: UIButton) {
+        sound.togglePlaying()
+    }
 }
 
