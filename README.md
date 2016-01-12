@@ -13,7 +13,7 @@ You have to run it on a device to hear the sound font. In the simulator, you wil
 
 ## Blog post for this example.
 
-[Blog post](http://www.rockhoppertech.com/blog/swift-2-avfounda…ay-audio-or-midi/)
+[Blog post](http://www.rockhoppertech.com/blog/swift-2-avfoundation-to-play-audio-or-midi/)
 
 
 ## Bugs
