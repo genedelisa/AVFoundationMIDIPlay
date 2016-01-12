@@ -72,7 +72,7 @@ class MIDISampler {
             return
         }
         
-        self.sampler.sendProgramChange(gmpatch, bankMSB: melodicBank, bankLSB: 0, onChannel: channel)
+        self.sampler.sendProgramChange(gmpatch, bankMSB: melodicBank, bankLSB: defaultBankLSB, onChannel: channel)
     }
 
     
