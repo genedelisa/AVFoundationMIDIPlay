@@ -6,7 +6,9 @@
 [![GitHub tag](https://img.shields.io/github/tag/genedelisa/tablebinding.svg)](https://github.com/genedelisa/AVFoundationMIDIPlay/)
 [![GitHub release](https://img.shields.io/github/release/genedelisa/tablebinding.svg)](https://github.com/genedelisa/AVFoundationMIDIPlay/)
 
-A very simple example using `AVMIDIPlayer` to load a sound band and MIDI file and play it.
+A very simple example using `AVMIDIPlayer` to load a sound font and MIDI file then play it.
+
+You have to run it on a device to hear the sound font. In the simulator, you will hear only sine waves.
 
 
 ## Blog post for this example.
