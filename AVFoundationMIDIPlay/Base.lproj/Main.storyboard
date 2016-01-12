@@ -17,18 +17,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8RW-cf-hgY">
-                                <rect key="frame" x="285" y="285" width="30" height="30"/>
-                                <state key="normal" title="Play"/>
-                                <connections>
-                                    <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebk-Tf-N7N"/>
-                                </connections>
-                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="84X-BC-Q3e">
+                                <rect key="frame" x="257.5" y="235" width="85" height="130"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8RW-cf-hgY">
+                                        <rect key="frame" x="0.0" y="0.0" width="85" height="30"/>
+                                        <state key="normal" title="Play"/>
+                                        <connections>
+                                            <action selector="playAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ebk-Tf-N7N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ED7-ZS-dY1">
+                                        <rect key="frame" x="0.0" y="50" width="85" height="30"/>
+                                        <state key="normal" title="Harpsichord"/>
+                                        <connections>
+                                            <action selector="samplerDown:" destination="BYZ-38-t0r" eventType="touchDown" id="QzS-na-hAu"/>
+                                            <action selector="samplerUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MrW-6r-93f"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GWQ-Qa-Kaw">
+                                        <rect key="frame" x="0.0" y="100" width="85" height="30"/>
+                                        <state key="normal" title="Marimba"/>
+                                        <connections>
+                                            <action selector="marimbaDown:" destination="BYZ-38-t0r" eventType="touchDown" id="cJ1-5c-UCh"/>
+                                            <action selector="marimbaUp:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dbr-D8-0np"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="8RW-cf-hgY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XHF-M2-aR6"/>
-                            <constraint firstItem="8RW-cf-hgY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sSd-sJ-vG3"/>
+                            <constraint firstItem="84X-BC-Q3e" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jMf-AL-gaS"/>
+                            <constraint firstItem="84X-BC-Q3e" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="o5o-yo-Luw"/>
                         </constraints>
                     </view>
                 </viewController>

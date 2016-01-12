@@ -11,11 +11,13 @@ import UIKit
 class ViewController: UIViewController {
     
     var sound:Sound!
+    var sampler:MIDISampler!
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         self.sound = Sound()
+        self.sampler = MIDISampler()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,6 +28,21 @@ class ViewController: UIViewController {
 
     @IBAction func playAction(sender: UIButton) {
         sound.togglePlaying()
+    }
+    
+    @IBAction func samplerDown(sender: UIButton) {
+        sampler.hstart()
+    }
+    
+    @IBAction func samplerUp(sender: UIButton) {
+        sampler.hstop()
+    }
+
+    @IBAction func marimbaDown(sender: UIButton) {
+        sampler.mstart()
+    }
+    @IBAction func marimbaUp(sender: UIButton) {
+        sampler.mstop()
     }
 }
 
