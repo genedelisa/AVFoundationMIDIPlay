@@ -94,7 +94,7 @@ class Sound {
     func startTimer() {
         timer = NSTimer.scheduledTimerWithTimeInterval(0.1,
             target:self,
-            selector: "updateTime",
+            selector: #selector(Sound.updateTime),
             userInfo:nil,
             repeats:true)
     }

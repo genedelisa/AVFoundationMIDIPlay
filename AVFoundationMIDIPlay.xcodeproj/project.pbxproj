@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B0A100001C453ADA0092CBE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0A1FFFF1C453ADA0092CBE9 /* ViewController.swift */; };
-		B0A100031C453ADA0092CBE9 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B0A100021C453ADA0092CBE9 /* README.md */; };
 		B0A100051C453ADA0092CBE9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = B0A100041C453ADA0092CBE9 /* LICENSE */; };
 		B0A100071C453ADA0092CBE9 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B0A100061C453ADA0092CBE9 /* .gitignore */; };
 		B0A100091C453ADA0092CBE9 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = B0A100081C453ADA0092CBE9 /* .travis.yml */; };
@@ -325,7 +324,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0A100031C453ADA0092CBE9 /* README.md in Sources */,
 				B0A100001C453ADA0092CBE9 /* ViewController.swift in Sources */,
 				B0A100401C454AA10092CBE9 /* MIDISampler.swift in Sources */,
 				B0A1FFFE1C453ADA0092CBE9 /* AppDelegate.swift in Sources */,

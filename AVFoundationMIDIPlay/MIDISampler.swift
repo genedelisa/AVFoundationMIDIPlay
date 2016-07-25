@@ -77,6 +77,7 @@ class MIDISampler {
 
     
     func hstart() {
+        // of course, loading the patch every time is not optimal.
         loadPatch(gmHarpsichord)
         self.sampler.startNote(65, withVelocity: 64, onChannel: 0)
     }
